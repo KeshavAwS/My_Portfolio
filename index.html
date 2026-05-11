@@ -77,7 +77,7 @@ section{position:relative;z-index:1}
 .term-key{color:var(--accent2)}
 .term-val{color:var(--accent)}
 .term-str{color:#f9a825}
-.term-cursor{display:inline-block;width:8px;height:14px;background:var(--accent);animation:blink 1s steps(1) infinite;vertical-align:-2px}
+.term-cursor{display:inline-block;width:8px;height:14px;background:var(--accent);animation:blink 1.25s steps(20) infinite;vertical-align:-2px}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
 
 /* TICKER */
@@ -227,12 +227,12 @@ footer{padding:24px;flex-direction:column;gap:16px;text-align:center}
         <div class="term-line"><span class="term-prompt">const</span> <span class="term-cmd">developer</span> <span class="term-prompt">=</span> {</div>
         <div class="term-line">&nbsp;&nbsp;<span class="term-key">name</span>: <span class="term-str">"Keshav Sharma"</span>,</div>
         <div class="term-line">&nbsp;&nbsp;<span class="term-key">role</span>: <span class="term-str">"Full Stack Developer"</span>,</div>
-        <div class="term-line">&nbsp;&nbsp;<span class="term-key">experience</span>: <span class="term-val">"1+ year"</span>,</div>
+        <div class="term-line">&nbsp;&nbsp;<span class="term-key">openToWork</span>: [<span class="term-str">"Full Stack Developer</span>,<span class="term-str"> SaaS / AI Products</span>,</div>
+        <div class="term-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="term-str">Founding Team"</span>],</div>
         <div class="term-line">&nbsp;&nbsp;<span class="term-key">stack</span>: [<span class="term-str">"React"</span>, <span class="term-str">"FastAPI"</span>,</div>
         <div class="term-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="term-str">"Laravel"</span>, <span class="term-str">"Node.js"</span>],</div>
         <div class="term-line">&nbsp;&nbsp;<span class="term-key">ai_powered</span>: <span class="term-val">true</span>,</div>
-        <div class="term-line">&nbsp;&nbsp;<span class="term-key">openToWork</span>: <span class="term-val">true</span>,</div>
-        <div class="term-line">&nbsp;&nbsp;<span class="term-key">location</span>: <span class="term-str">"Panchkula, Haryana 🇮🇳"</span></div>
+        <div class="term-line">&nbsp;&nbsp;<span class="term-key">location</span>: [<span class="term-str">"Panchkula</span>,<span class="term-str"> Haryana 🇮🇳"</span>]</div>
         <div class="term-line">}</div>
         <div class="term-line">&nbsp;</div>
         <div class="term-line"><span class="term-comment">// ready to ship your next product</span> <span class="term-cursor"></span></div>
@@ -282,23 +282,27 @@ footer{padding:24px;flex-direction:column;gap:16px;text-align:center}
     </div>
     <div class="about-grid">
       <div class="about-text fade-in">
-        <p>I'm a frontend-focused full stack developer who loves building things that live on the internet — from responsive UIs to scalable APIs. I graduated with a B.E. in Computer Science from Chitkara University in 2025.</p>
+        <p>I'm a Full Stack Developer who loves building things that live on the internet — from responsive UIs to scalable APIs. I graduated with a B.E. in Computer Science from Chitkara University in 2025.</p>
         <p>My approach combines solid CS fundamentals with modern tooling. I'm fluent in AI-assisted development workflows (GitHub Copilot, Claude, v0 by Vercel), which lets me ship faster without sacrificing code quality.</p>
-        <p>Currently working as a Full Stack Web Developer at <strong style="color:var(--text)">Kalvium</strong>, where I review production codebases, mentor developers, and build best-practice systems at scale.</p>
+        <p>Currently working as a Full Stack Web Development Mentor at <strong style="color:var(--text)">Kalvium</strong>, where I debug production APIs, enforce architecture standards, and ship full stack features across React and Node.js codebases.</p>
         <p>I speak English fluently and Hindi natively. I'm actively looking for high-impact roles where I can build ambitious products with ambitious teams.</p>
       </div>
       <div class="about-stats fade-in" style="transition-delay:.1s">
         <div class="stat-card">
-          <div class="stat-num">1+</div>
-          <div class="stat-label">Years Experience</div>
+          <div class="stat-num">2+</div>
+          <div class="stat-label">Production Apps</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">38</div>
+          <div class="stat-label">GitHub Repos</div>
         </div>
         <div class="stat-card">
           <div class="stat-num">100+</div>
           <div class="stat-label">Codebases Reviewed</div>
         </div>
         <div class="stat-card">
-          <div class="stat-num">5+</div>
-          <div class="stat-label">Tech Certifications</div>
+          <div class="stat-num">10+</div>
+          <div class="stat-label">Tech Stacks</div>
         </div>
         <div class="stat-card">
           <div class="stat-num">∞</div>
@@ -323,8 +327,8 @@ footer{padding:24px;flex-direction:column;gap:16px;text-align:center}
         <div class="skill-tags">
           <span class="stag hot">JavaScript ES6+</span>
           <span class="stag hot">TypeScript</span>
+          <span class="stag hot">Java</span>
           <span class="stag">Python</span>
-          <span class="stag">Java</span>
           <span class="stag">C++</span>
           <span class="stag">PHP</span>
         </div>
@@ -348,8 +352,8 @@ footer{padding:24px;flex-direction:column;gap:16px;text-align:center}
         <div class="skill-tags">
           <span class="stag hot">Node.js</span>
           <span class="stag hot">FastAPI</span>
+          <span class="stag hot">REST APIs</span>
           <span class="stag">Laravel</span>
-          <span class="stag">REST APIs</span>
           <span class="stag">WebSockets</span>
           <span class="stag">JWT</span>
           <span class="stag">MySQL</span>
@@ -359,12 +363,12 @@ footer{padding:24px;flex-direction:column;gap:16px;text-align:center}
       <div class="skill-cat fade-in" style="transition-delay:.24s">
         <div class="skill-cat-title">Cloud &amp; DevOps</div>
         <div class="skill-tags">
-          <span class="stag hot">AWS</span>
+          <span class="stag hot">Git / GitHub</span>
           <span class="stag hot">Vercel</span>
-          <span class="stag">Git / GitHub</span>
+          <span class="stag hot">Figma</span>
+          <span class="stag">AWS</span>
           <span class="stag">Linux</span>
           <span class="stag">Postman</span>
-          <span class="stag">Figma</span>
         </div>
       </div>
       <div class="skill-cat fade-in" style="transition-delay:.32s">
@@ -399,16 +403,35 @@ footer{padding:24px;flex-direction:column;gap:16px;text-align:center}
       <h2 class="sec-title">Experience</h2>
       <div class="sec-line"></div>
     </div>
+
+    <!-- Intern entry -->
+    <div class="exp-item fade-in" style="transition-delay:.1s">
+      <div class="exp-meta">
+        <div class="exp-period">May 2025 – Aug 2025</div>
+        <div class="exp-company">Kalvium</div>
+        <div class="exp-type">Internship</div>
+      </div>
+      <div>
+        <h3 class="exp-role">Full Stack Web Development Mentor</h3>
+        <ul class="exp-bullets">
+          <li>Assisted in reviewing student codebases built with React.js, HTML, CSS, and Node.js, providing structured feedback on component architecture and code quality.</li>
+          <li>Debugged REST API issues in junior developer projects, identifying async handling errors and improving API contract consistency.</li>
+          <li>Supported Git-based code review workflows, learning production-grade standards for state management and responsive UI development.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Full-time entry -->
     <div class="exp-item fade-in">
       <div class="exp-meta">
-        <div class="exp-period">May 2025 – Present</div>
+        <div class="exp-period">Aug 2025 – Present</div>
         <div class="exp-company">Kalvium</div>
         <div class="exp-type">Full-time</div>
       </div>
       <div>
-        <h3 class="exp-role">Full Stack Web Developer</h3>
+        <h3 class="exp-role">Full Stack Web Development Mentor</h3>
         <ul class="exp-bullets">
-          <li>Reviewed <strong style="color:var(--text)">100+ full-stack codebases</strong> in React.js, JavaScript, HTML, and CSS, enforcing best practices for component design, state management, and responsive layouts.</li>
+          <li>Reviewed <strong style="color:var(--text)">100+ full-stack codebases</strong> in React.js, Node.js, HTML, and CSS, enforcing best practices for component design, state management, and responsive layouts.</li>
           <li>Implemented and debugged REST APIs, resolving issues around async data retrieval, error boundaries, and API contract design across production systems.</li>
           <li>Conducted systematic Git-based code reviews, identifying optimizations and reducing recurring anti-patterns across the engineering team.</li>
         </ul>
@@ -422,7 +445,7 @@ footer{padding:24px;flex-direction:column;gap:16px;text-align:center}
   <div class="container">
     <div class="sec-header fade-in">
       <span class="sec-num">04.</span>
-      <h2 class="sec-title">Projects</h2>
+      <h2 class="sec-title">Personal Projects</h2>
       <div class="sec-line"></div>
     </div>
     <div class="projects-grid">
@@ -490,7 +513,7 @@ footer{padding:24px;flex-direction:column;gap:16px;text-align:center}
   </div>
 </section>
 
-<!-- ══ CERTIFICATIONS ══ -->
+<!-- ══ CERTIFICATIONS ══
 <section id="certifications" style="padding:100px 0">
   <div class="container">
     <div class="sec-header fade-in">
@@ -517,7 +540,7 @@ footer{padding:24px;flex-direction:column;gap:16px;text-align:center}
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- ══ CONTACT ══ -->
 <section id="contact" style="padding:100px 0;background:var(--bg2)">
@@ -558,7 +581,7 @@ footer{padding:24px;flex-direction:column;gap:16px;text-align:center}
 
 <!-- ══ FOOTER ══ -->
 <footer>
-  <div class="foot-left">© 2025 Keshav Sharma. Designed &amp; built with ♥</div>
+  <div class="foot-left">© 2026 Keshav Sharma. Designed &amp; built with ♥</div>
   <div class="foot-right">
     <div class="foot-dot"></div>
     Open to opportunities
